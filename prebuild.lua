@@ -1,18 +1,18 @@
-project "Box2D"
-	kind "StaticLib"
-	language "C++"
-	dialect "20"
+Project = {
+    name = "Box2D",
+	kind = "StaticLib",
+	language = "C++",
+	dialect = "20",
 
-	files
-	{
+	files = {
 		"src/**.h",
 		"src/**.cpp",
 		"include/**.h"
-	}
+	},
 
-	includedirs
-	{
+	includedirs = {
 		"include",
 		"src"
-	}
+	},
+}
 
